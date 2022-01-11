@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="5" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-11T18:10:41 EET" name="Suite" finished-at="2022-01-11T18:11:48 EET" duration-ms="67240">
+    <groups>
+    </groups>
+    <test started-at="2022-01-11T18:10:41 EET" name="Smoke" finished-at="2022-01-11T18:11:12 EET" duration-ms="31461">
+      <class name="TestCases.a03ValidateLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a03ValidateLogin@47d93e0d]" started-at="2022-01-11T18:10:46 EET" name="initialize" finished-at="2022-01-11T18:10:49 EET" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateLogin()[pri:0, instance:TestCases.a03ValidateLogin@47d93e0d]" started-at="2022-01-11T18:10:58 EET" name="validateLogin" finished-at="2022-01-11T18:11:00 EET" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a03ValidateLogin@47d93e0d]" started-at="2022-01-11T18:11:12 EET" name="teardown" finished-at="2022-01-11T18:11:12 EET" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a03ValidateLogin -->
+      <class name="TestCases.a10E2E">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a10E2E@751e664e]" started-at="2022-01-11T18:10:53 EET" name="initialize" finished-at="2022-01-11T18:10:56 EET" duration-ms="2911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateNewItem()[pri:0, instance:TestCases.a10E2E@751e664e]" started-at="2022-01-11T18:11:02 EET" name="validateNewItem" finished-at="2022-01-11T18:11:12 EET" duration-ms="10356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewItem -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a10E2E@751e664e]" started-at="2022-01-11T18:11:12 EET" name="teardown" finished-at="2022-01-11T18:11:12 EET" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a10E2E -->
+      <class name="TestCases.a01ValidateRegister">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a01ValidateRegister@29d2d081]" started-at="2022-01-11T18:10:41 EET" name="initialize" finished-at="2022-01-11T18:10:46 EET" duration-ms="4922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateRegister()[pri:0, instance:TestCases.a01ValidateRegister@29d2d081]" started-at="2022-01-11T18:10:56 EET" name="validateRegister" finished-at="2022-01-11T18:10:58 EET" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegister -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a01ValidateRegister@29d2d081]" started-at="2022-01-11T18:11:12 EET" name="teardown" finished-at="2022-01-11T18:11:12 EET" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a01ValidateRegister -->
+      <class name="TestCases.a06ValidateAddNewItem">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a06ValidateAddNewItem@475b7792]" started-at="2022-01-11T18:10:49 EET" name="initialize" finished-at="2022-01-11T18:10:53 EET" duration-ms="3491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateNewItem()[pri:0, instance:TestCases.a06ValidateAddNewItem@475b7792]" started-at="2022-01-11T18:11:00 EET" name="validateNewItem" finished-at="2022-01-11T18:11:02 EET" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewItem -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a06ValidateAddNewItem@475b7792]" started-at="2022-01-11T18:11:12 EET" name="teardown" finished-at="2022-01-11T18:11:12 EET" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a06ValidateAddNewItem -->
+    </test> <!-- Smoke -->
+    <test started-at="2022-01-11T18:11:13 EET" name="Regression" finished-at="2022-01-11T18:11:48 EET" duration-ms="35339">
+      <class name="TestCases.a09ValidateAddress">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a09ValidateAddress@19868320]" started-at="2022-01-11T18:11:31 EET" name="initialize" finished-at="2022-01-11T18:11:34 EET" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAddress()[pri:0, instance:TestCases.a09ValidateAddress@19868320]" started-at="2022-01-11T18:11:43 EET" name="validateAddress" finished-at="2022-01-11T18:11:48 EET" duration-ms="4358" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Country is required.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Country is required.
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at TestCases.a09ValidateAddress.validateAddress(a09ValidateAddress.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddress -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a09ValidateAddress@19868320]" started-at="2022-01-11T18:11:48 EET" name="teardown" finished-at="2022-01-11T18:11:48 EET" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a09ValidateAddress -->
+      <class name="TestCases.a04ValidateLogin_W_InvalidPass">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a04ValidateLogin_W_InvalidPass@3c1e3314]" started-at="2022-01-11T18:11:17 EET" name="initialize" finished-at="2022-01-11T18:11:21 EET" duration-ms="3871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateLogin_W_InvalidPass()[pri:0, instance:TestCases.a04ValidateLogin_W_InvalidPass@3c1e3314]" started-at="2022-01-11T18:11:36 EET" name="validateLogin_W_InvalidPass" finished-at="2022-01-11T18:11:37 EET" duration-ms="1184" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login was unsuccessful. Please correct the errors and try again.
+Customer is deleted]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login was unsuccessful. Please correct the errors and try again.
+Customer is deleted
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at TestCases.a04ValidateLogin_W_InvalidPass.validateLogin_W_InvalidPass(a04ValidateLogin_W_InvalidPass.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin_W_InvalidPass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a04ValidateLogin_W_InvalidPass@3c1e3314]" started-at="2022-01-11T18:11:48 EET" name="teardown" finished-at="2022-01-11T18:11:48 EET" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a04ValidateLogin_W_InvalidPass -->
+      <class name="TestCases.a05ValidateLogin_W_InvalidUN">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a05ValidateLogin_W_InvalidUN@4b770e40]" started-at="2022-01-11T18:11:21 EET" name="initialize" finished-at="2022-01-11T18:11:25 EET" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateLogin_W_InvalidUN()[pri:0, instance:TestCases.a05ValidateLogin_W_InvalidUN@4b770e40]" started-at="2022-01-11T18:11:37 EET" name="validateLogin_W_InvalidUN" finished-at="2022-01-11T18:11:38 EET" duration-ms="1168" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login was unsuccessful. Please correct the errors and try again.
+The credentials provided are incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login was unsuccessful. Please correct the errors and try again.
+The credentials provided are incorrect
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at TestCases.a05ValidateLogin_W_InvalidUN.validateLogin_W_InvalidUN(a05ValidateLogin_W_InvalidUN.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin_W_InvalidUN -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a05ValidateLogin_W_InvalidUN@4b770e40]" started-at="2022-01-11T18:11:48 EET" name="teardown" finished-at="2022-01-11T18:11:48 EET" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a05ValidateLogin_W_InvalidUN -->
+      <class name="TestCases.a07ValidateCouponCode">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a07ValidateCouponCode@1968a49c]" started-at="2022-01-11T18:11:25 EET" name="initialize" finished-at="2022-01-11T18:11:27 EET" duration-ms="2814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateCouponCode()[pri:0, instance:TestCases.a07ValidateCouponCode@1968a49c]" started-at="2022-01-11T18:11:38 EET" name="validateCouponCode" finished-at="2022-01-11T18:11:41 EET" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCouponCode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a07ValidateCouponCode@1968a49c]" started-at="2022-01-11T18:11:48 EET" name="teardown" finished-at="2022-01-11T18:11:48 EET" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a07ValidateCouponCode -->
+      <class name="TestCases.a02RegressionRegister">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a02RegressionRegister@26f143ed]" started-at="2022-01-11T18:11:13 EET" name="initialize" finished-at="2022-01-11T18:11:17 EET" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="regressRegister()[pri:0, instance:TestCases.a02RegressionRegister@26f143ed]" started-at="2022-01-11T18:11:34 EET" name="regressRegister" finished-at="2022-01-11T18:11:35 EET" duration-ms="1876" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The specified email already exists]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The specified email already exists
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at TestCases.a02RegressionRegister.regressRegister(a02RegressionRegister.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressRegister -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a02RegressionRegister@26f143ed]" started-at="2022-01-11T18:11:48 EET" name="teardown" finished-at="2022-01-11T18:11:48 EET" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a02RegressionRegister -->
+      <class name="TestCases.a08ValidateTerms">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.a08ValidateTerms@6a1ebcff]" started-at="2022-01-11T18:11:27 EET" name="initialize" finished-at="2022-01-11T18:11:31 EET" duration-ms="3193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateTerms()[pri:0, instance:TestCases.a08ValidateTerms@6a1ebcff]" started-at="2022-01-11T18:11:41 EET" name="validateTerms" finished-at="2022-01-11T18:11:43 EET" duration-ms="2134" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Please accept the terms of service before the next step.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Please accept the terms of service before the next step.
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertFalse(Assert.java:65)
+at TestCases.a08ValidateTerms.validateTerms(a08ValidateTerms.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTerms -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.a08ValidateTerms@6a1ebcff]" started-at="2022-01-11T18:11:48 EET" name="teardown" finished-at="2022-01-11T18:11:48 EET" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.a08ValidateTerms -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

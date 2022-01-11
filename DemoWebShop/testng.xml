@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+	<listeners>
+		<listener class-name="TestCases.Listeners" />
+	</listeners>
+
+	<test name="Smoke">
+		<classes>
+			<class name="TestCases.a01ValidateRegister" />
+			<class name="TestCases.a03ValidateLogin" />
+			<class name="TestCases.a06ValidateAddNewItem" />
+			<class name="TestCases.a10E2E" />
+		</classes>
+	</test>
+	<test name="Regression">
+		<classes>
+			<class name="TestCases.a02RegressionRegister" />
+			<class name="TestCases.a04ValidateLogin_W_InvalidPass" />
+			<class name="TestCases.a05ValidateLogin_W_InvalidUN" />
+			<class name="TestCases.a07ValidateCouponCode" />
+			<class name="TestCases.a08ValidateTerms" />
+			<class name="TestCases.a09ValidateAddress" />
+		</classes>
+	</test>
+</suite> 
